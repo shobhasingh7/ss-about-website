@@ -8,12 +8,12 @@ const data = [
   {
     label: 'Stars this repository has on github',
     key: 'stargazers_count',
-    link: 'https://github.com/shobhasingh7/ss-about-website/stargazers',
+    link: 'https://api.github.com/repos/shobhasingh7/ss-about-website/stargazers',
   },
   {
     label: 'Number of people watching this repository',
     key: 'subscribers_count',
-    link: 'https://github.com/shobhasingh7/ss-about-website/stargazers',
+    link: 'https://github.com/shobhasingh7/ss-about-website/subscribers_count',
   },
   {
     label: 'Number of forks',
