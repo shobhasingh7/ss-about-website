@@ -28,9 +28,7 @@ const About = () => {
             <h2>
               <Link to="/about">About Me</Link>
             </h2>
-            <!--
-            <p>(in about {count} words)</p>
-            -->
+            {/* <p>(in about {count} words)</p> */}
           </div>
         </header>
         <Markdown>{markdown}</Markdown>
