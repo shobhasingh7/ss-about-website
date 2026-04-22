@@ -1,16 +1,16 @@
 # Intro
 
 I am 
+
 # Some History
 
 - 
 # I Like
-
+- Gardening
 - Running
+- Biking
+- Traveling
 
-# Travel / Geography
-
--
 
 # Fun Facts
 
