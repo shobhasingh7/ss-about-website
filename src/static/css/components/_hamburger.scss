@@ -1,10 +1,9 @@
-// Not found page
-
-.bm-item-list {
-  margin-top: 0;
-}
-
 .menu-hover {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
   padding: 0 1em;
 }
 
@@ -12,8 +11,46 @@
   opacity: 0.5;
 }
 
+.hamburger-overlay {
+  background: rgba(0, 0, 0, 0.35);
+  border: 0;
+  cursor: pointer;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  transition: opacity 0.2s ease;
+  z-index: 9998;
+}
+
+.hamburger-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hamburger-panel {
+  background: _palette(bg);
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  font-size: 1.15em;
+  max-width: 22rem;
+  padding: 2.5em 1.5em 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  transition: transform 0.2s ease;
+  width: min(80vw, 22rem);
+  z-index: 9999;
+}
+
+.hamburger-panel.is-open {
+  transform: translateX(0);
+}
+
 .hamburger-ul {
   display: block;
+  font-family: "Raleway", Helvetica, sans-serif;
+  margin-top: 0;
 
   li a h3 {
     border: 0;

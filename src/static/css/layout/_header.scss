@@ -160,40 +160,6 @@ body {
   }
 }
 
-/* Position and sizing of burger button */
-.bm-burger-button {
-  display: none;
-}
-
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  display: none;
-}
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  display: none;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-  display: none;
-}
-
-/* General sidebar styles */
-.bm-menu {
-  background: _palette(bg);
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: _palette(fg-bold);
-  padding: 0.8em;
-  font-family: "Raleway", Helvetica, sans-serif;
-}
-
 #header .index-link {
   z-index: 3;
 }
