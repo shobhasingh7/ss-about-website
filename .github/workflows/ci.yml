@@ -36,3 +36,13 @@ jobs:
       # 6. Compile the production bundle
       - name: Build production package
         run: npm run build
+
+        - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: 'github-pages'
+          path: build
+      # 7. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        
