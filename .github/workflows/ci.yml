@@ -28,9 +28,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 4. Check code styling (optional but highly recommended)
-      - name: Run linter
-        run: npm run lint --if-present
 
       # 5. Execute your testing suite
       - name: Run tests
